@@ -1,0 +1,37 @@
+# From Clinician to AI Safety Practitioner
+
+A 12-week public learning project: from zero knowledge of AI to an intermediate level in AI safety and evals, with a focus on keeping medical AI safe for patients.
+
+## What success looks like
+
+In 12 weeks, I go from zero knowledge of AI to being able to explain core AI safety and evaluation ideas fluently, and I can show something I built: a capstone eval that I designed, ran on a language model, and wrote up. A recruiter, employer, or fellowship mentor looking at this repository should see someone who started from nothing and is now equipped to take part in the field.
+
+## Why it matters
+
+I want clinical AI to be safer for patients, especially the many people who now use AI to check their symptoms and diagnoses. I also want this work to move my career forward in digital health and medical AI. My medical training lets me judge when an AI's health answer is actually unsafe.
+
+## The capstone
+
+An evaluation of how language models handle symptom-checking and diagnosis questions: about 30 realistic patient scenarios, a clinician-written scoring rubric, results from testing a model, and a written analysis of where it fails.
+
+## What is in this repository
+
+| Folder or file | Contents |
+|---|---|
+| `roadmap.md` | The 12-week plan with weekly goals and checkpoints |
+| `weeks/` | Day-by-day checklists for each week |
+| `resources/` | Annotated library of courses, papers, and videos, with my own verdicts |
+| `study-materials/` | Flashcards and quizzes |
+| `guide/` | A tutorial: how to evaluate a medical AI model, written for clinicians |
+| `capstone/` | Scenarios, rubric, code, results, and write-up |
+| `notes/` | My weekly learning notes |
+| `code/` | Python notebooks from my practice |
+
+## Progress
+
+- [ ] Phase 1: Foundations (Weeks 1-3)
+- [ ] Phase 2: How models work and what can go wrong (Weeks 4-6)
+- [ ] Phase 3: Evals and red-teaming (Weeks 7-9)
+- [ ] Phase 4: Capstone and tutorial (Weeks 10-12)
+
+_Started: November 2026_
