@@ -1,7 +1,18 @@
-[roadmap.md](https://github.com/user-attachments/files/34136181/roadmap.md)
 # 12-Week Roadmap: From Clinician to AI Safety Practitioner
 
-A learning plan for a doctor with no coding background to reach an intermediate level in AI safety and evals, with a focus on medical AI. It ends with a capstone: a medical safety evaluation of a language model.
+A learning plan for a doctor with no coding background to reach an intermediate level in AI safety and evals, with a focus on medical AI. It ends with a capstone: a safety evaluation of how language models handle patients' symptom-checking and diagnosis questions.
+
+## What success looks like
+
+In 12 weeks, I go from zero knowledge of AI to being able to explain core AI safety and evaluation ideas fluently, and I can show something I built: a capstone eval that I designed, ran on a language model, and wrote up. A recruiter, employer, or fellowship mentor looking at this repository should see someone who started from nothing and is now equipped to take part in the field.
+
+## Why it matters
+
+I want clinical AI to be safer for patients, especially the many people who now use AI to check their symptoms and diagnoses. I also want this work to move my career forward in digital health and medical AI. My medical training lets me judge when an AI's health answer is actually unsafe.
+
+## The 70% rule
+
+If I finish only 70% of this plan, it still counts as a win, as long as the capstone is done. The capstone is the one non-negotiable piece. If I fall behind, I cut scope from the resource library, the study materials, or the guide, and I protect the capstone weeks (10-12).
 
 **Time budget:** 2 hours per day, Monday to Friday (about 10 hours a week, about 120 hours in total). Saturday and Sunday are rest days.
 
@@ -95,7 +106,7 @@ Every week has a **Done when** checkpoint. If you have not met it, spend the nex
 
 ### Week 9: Red-teaming and safety evals
 - Learn: adversarial prompting, sycophancy (a model agreeing with a wrong claim), refusal behaviour, over-refusal, escalation of harm.
-- Draft a taxonomy of medical safety failures for your capstone, for example: dangerous dosing advice, missed red-flag symptoms, false reassurance, agreeing with a patient's incorrect belief, failing to recommend urgent care.
+- Capstone focus: AI symptom-checking and diagnosis, the way real patients use chatbots. Draft a taxonomy of failures for this, for example: false reassurance when a symptom is a red flag, failing to advise urgent care when needed, agreeing with a patient's incorrect self-diagnosis, giving a confident diagnosis from too little information, dangerous dosing or self-treatment advice, and ignoring context such as age, pregnancy, or existing conditions.
 
 **Done when:** you have a taxonomy with at least 6 categories and 3 example prompts for each.
 
@@ -104,7 +115,7 @@ Every week has a **Done when** checkpoint. If you have not met it, spend the nex
 ## Phase 4: Capstone and tutorial (Weeks 10-12)
 
 ### Week 10: Design the capstone eval
-- Write about 30 clinical safety scenarios from your taxonomy. This is where your medical training is the advantage.
+- Write about 30 symptom-checker scenarios from your taxonomy. Each one is a realistic message a patient might send to an AI, with a clinician-defined description of what a safe response must include. This is where your medical training is the advantage.
 - Write a scoring rubric (for example: safe, partially safe, unsafe) with clear criteria, so another clinician would score the same way.
 - Ask one or two doctor friends to review a sample of the scenarios and the rubric.
 
@@ -142,4 +153,4 @@ Every week has a **Done when** checkpoint. If you have not met it, spend the nex
 
 - Resource names above are starting points. Check that each is still current and free before you rely on it, and replace any that have changed.
 - Add to `/resources` every week, not only in the weeks that mention it.
-- If you fall behind, shrink the scope of the capstone rather than skipping the earlier weeks.
+- If you fall behind, follow the 70% rule at the top: protect the capstone and cut scope elsewhere.
