@@ -1,0 +1,83 @@
+# Week 1 Checklist: GitHub and Python Basics
+
+**Time:** 2 hours a day, Monday to Friday. Weekends are off.
+
+**Goal for the week:** get comfortable with GitHub in the browser and write your first Python programs.
+
+**Done when:**
+- [ ] My repository is public and has a README, `roadmap.md`, and `resources/README.md`
+- [ ] I have completed Kaggle's first Python lessons and their exercises
+- [ ] I have written and run 10 small Python programs in Google Colab
+- [ ] I have uploaded my notes and my notebook to GitHub
+
+---
+
+## Monday: Get set up (2 hours)
+
+**Hour 1: GitHub**
+- [ ] Do GitHub's "Hello World" tutorial (docs.github.com, search "GitHub Hello World"). You already know the main steps, so use it to practise branches and pull requests.
+
+**Hour 2: Start Python**
+- [ ] Create a free Kaggle account at kaggle.com
+- [ ] Go to Kaggle Learn and open the **Python** course
+- [ ] Start Lesson 1, "Hello, Python" (variables, numbers, types)
+
+**End of day:** write 3 lines in a notes file about what a variable is, in your own words.
+
+---
+
+## Tuesday: Python basics and Colab (2 hours)
+
+- [ ] (1 hr) Finish Lesson 1 and complete its exercise
+- [ ] (30 min) Open Google Colab (colab.research.google.com) with your Google account and click **New notebook**
+- [ ] (30 min) Write your first two programs in Colab, and run each with the play button:
+  1. **Program 1:** print your name and "Hello, AI safety!"
+  2. **Program 2:** BMI calculator. Put weight in kg and height in metres into variables, calculate BMI, and print it.
+
+---
+
+## Wednesday: Decisions in code (2 hours)
+
+- [ ] (1.5 hrs) Kaggle Python Lesson: **Booleans and Conditionals** (if, elif, else), plus its exercise
+- [ ] (30 min) Write these programs in Colab:
+  3. **Program 3:** convert a temperature from Celsius to Fahrenheit
+  4. **Program 4:** a fever checker. Given a temperature, print "normal", "low-grade fever", or "high fever" using ranges you choose.
+
+---
+
+## Thursday: Practise (2 hours)
+
+- [ ] (45 min) Finish any unfinished exercise from Monday to Wednesday
+- [ ] (45 min) Write these programs in Colab:
+  5. **Program 5:** dose by weight. Multiply a mg/kg dose by a patient's weight and print the result.
+  6. **Program 6:** an age-group classifier (neonate, infant, child, adult) from an age in years.
+  7. **Program 7:** a blood pressure category checker using ranges from any published guideline you choose. This is a coding exercise only, not clinical advice.
+- [ ] (30 min) Re-read your notes. Write down two things that confused you.
+
+---
+
+## Friday: Build and review (2 hours)
+
+- [ ] (45 min) Write the last programs in Colab:
+  8. **Program 8:** a maximum-dose safety check. If a calculated dose is above a maximum you set, print a warning.
+  9. **Program 9:** a heart-rate flag that prints whether a pulse is low, normal, or high.
+  10. **Program 10:** a small "triage message" program that combines two of your earlier checks (for example fever plus age group) and prints one message.
+- [ ] (45 min) Add to GitHub:
+  - In Colab, go to File, then Download, then **Download .ipynb**
+  - In your repo, click **Add file**, then **Upload files**, and add the notebook (put it in a `code/week-01` folder by typing the path)
+  - Create `notes/week-01.md` with 5 to 10 lines on what you learned
+  - In `resources/README.md`, fill in your "My verdict" for GitHub Hello World and Kaggle Python
+  - Commit each change with a clear message
+- [ ] (30 min) Weekly review: tick the "Done when" boxes at the top. What was hard? What will you do differently next week?
+
+---
+
+## If you get stuck
+
+- **20-minute rule:** if you are stuck for 20 minutes, copy the error message and bring it to me in the chat. Add the code that caused it.
+- **Do not skip exercises.** The exercises are where the learning happens.
+- **Short on time one day?** Do the first hour only and keep going the next day. A missed day is fine; skipped weeks are the problem.
+
+## Next week preview (Week 2)
+
+Functions, lists, loops, and dictionaries, with medical data examples such as lists of lab values and dictionaries of drug doses.
